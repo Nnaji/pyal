@@ -12,6 +12,7 @@ import palindrome
 import fibonacci
 import isodd
 import prime
+import vowels
 
 class MyUnitTest(unittest.TestCase):
     def test_iseven_function(self):
@@ -29,6 +30,10 @@ class MyUnitTest(unittest.TestCase):
 
     def test_prime_function(self):
         self.assertTrue(prime.is_prime(3), "It should return true")
+
+    def test_vowel_function(self):
+        self.assertTrue(vowels.is_Vowel("a"), "It should return true")
+        self.assertFalse(vowels.is_Vowel("b"), "It should return false")
 
 if __name__=="__main__":
     unittest.main()
