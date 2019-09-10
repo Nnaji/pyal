@@ -9,6 +9,7 @@ import unittest
 sys.path.append("..")
 import iseven
 import palindrome
+import fibonacci
 
 class MyUnitTest(unittest.TestCase):
     def test_iseven_function(self):
@@ -17,6 +18,10 @@ class MyUnitTest(unittest.TestCase):
 
     def test_isPalindrome_function(self):
         self.assertTrue(palindrome.is_palindrome("noon"), "Noon is a Palindrom")
+
+    def test_fibonacci_function(self):
+        self.assertEqual(fibonacci.fib(8), 21, "8 fibonacci should equal 21")
+
 
 if __name__=="__main__":
     unittest.main()
