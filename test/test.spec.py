@@ -11,6 +11,7 @@ import iseven
 import palindrome
 import fibonacci
 import isodd
+import prime
 
 class MyUnitTest(unittest.TestCase):
     def test_iseven_function(self):
@@ -25,6 +26,9 @@ class MyUnitTest(unittest.TestCase):
 
     def test_isodd_function(self):
         self.assertTrue(isodd.is_Odd(7), "It should return true")
+
+    def test_prime_function(self):
+        self.assertTrue(prime.is_prime(3), "It should return true")
 
 if __name__=="__main__":
     unittest.main()
