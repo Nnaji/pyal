@@ -36,5 +36,5 @@ class MyUnitTest(unittest.TestCase):
         self.assertFalse(vowels.is_Vowel("b"), "It should return false")
 
 if __name__ == "__main__":
-    unittest.main()
+    unittest.main(verbosity=1)
 
