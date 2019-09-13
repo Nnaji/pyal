@@ -19,3 +19,7 @@ def is_Even(num):
 
     '''
     return num % 2 == 0
+
+if __name__ == "__main__":
+    print("The Number 5 is not not even and therefore returns : ",  is_Even(5))
+    print("The Number 10 is even and therefore returns : ",  is_Even(10))

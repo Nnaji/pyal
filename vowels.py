@@ -21,3 +21,8 @@ def is_Vowel(char):
     to_lower_case = char.lower()
     result =  to_lower_case in vowels
     return result;
+
+if __name__ == "__main__":
+    print("Is the character i a Vowel? : ", is_Vowel("i"))
+    print("Is the character b a Vowel? : ", is_Vowel("b"))
+    print("Is the character a a Vowel? : ", is_Vowel("a"))

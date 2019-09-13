@@ -25,6 +25,7 @@ def is_prime(num):
                 current = i
     return current < 2
 
-print("is 23 a prime number: ", is_prime(23))
-print("is 3 a prime number: ", is_prime(3))
-print("is 8 a prime number: ", is_prime(8))
+if __name__ == "__main__":
+    print("Is 23 a prime number? : ", is_prime(23))
+    print("Is 3 a prime number? : ", is_prime(3))
+    print("Is 8 a prime number? : ", is_prime(8))

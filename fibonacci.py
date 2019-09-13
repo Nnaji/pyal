@@ -21,3 +21,5 @@ def fib(n):
         y[n] = f
     return f
 
+if __name__ == "__main__":
+    print(" The 8th fibonaccifib number is : ",  fib(8))
