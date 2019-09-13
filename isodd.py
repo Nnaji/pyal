@@ -19,7 +19,7 @@ def is_Odd(num):
     '''
     return num % 2 != 0
 
-
-print("The num 10 not 0dd: ", is_Odd(10))
-print("The num 8 not 0dd: ", is_Odd(10))
-print("The num 5 is an Odd number: ", is_Odd(5))
+if __name__ == "__main__":
+    print("The Number 10 not an 0dd Number and therefore returns : ", is_Odd(10))
+    print("The Number 8 not an 0dd Number and therefore returns : ", is_Odd(10))
+    print("The Number 5 is Odd Number and therefore returns : ", is_Odd(5))
